@@ -156,7 +156,9 @@ ul.big-image-list img {
 				box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
 				border-radius: 10px;
 				padding: 20px;
-				background: #fff url(images/banner.jpg) no-repeat 20px 20px;
+				/*background: #fff url(images/banner.jpg) no-repeat 20px 20px;*/
+				background: #202D73;
+				 /*url(images/banner.jpg) no-repeat 20px 20px;*/
 				background-size: 1160px 265px;
 				-moz-box-sizing:content-box;-webkit-box-sizing:content-box;-o-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box
 			}
