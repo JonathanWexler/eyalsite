@@ -103,7 +103,7 @@ ul.big-image-list img {
 		right: 40px;
 		top: 0px;
 		line-height: 100px;
-		text-transform: lowercase;
+		/*text-transform: lowercase;*/
 		font-size: 1.3em;
 		letter-spacing: -1px;
 	}
@@ -111,7 +111,7 @@ ul.big-image-list img {
 	#header nav a {
 		display: inline-block;
 		text-decoration: none;
-		color: #000;
+		color: #202D73;
 		/*margin-top: -10px;*/
 		padding: 0 25px 0 25px;
 		outline: 0;
@@ -154,7 +154,7 @@ ul.big-image-list img {
 				width: 1160px;
 				height: 265px;
 				box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.10);
-				border-radius: 10px;
+				/*border-radius: 10px;*/
 				padding: 20px;
 				/*background: #fff url(images/banner.jpg) no-repeat 20px 20px;*/
 				background: #202D73;

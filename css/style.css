@@ -12,7 +12,7 @@
 
 	body {
 		font-size: 13.5pt;
-		font-family: sans-serif;
+		font-family: helvetica;
 		background-color: #e3e9dc;
 		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
@@ -25,7 +25,7 @@
 	}
 
 	h1,h2 {
-		text-transform: lowercase;
+		/*text-transform: lowercase;*/
 	}
 
 	h2 {
@@ -144,7 +144,7 @@
 		background-image: -o-linear-gradient(top, #3D4C9B, #283890);
 		background-image: linear-gradient(top, #3D4C9B, #283890);
 		border-radius: 10px;
-		text-transform: lowercase;
+		/*text-transform: lowercase;*/
 		text-decoration: none;
 		color: #fff;
 		font-size: 1.2em;

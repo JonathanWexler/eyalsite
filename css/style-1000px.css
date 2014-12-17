@@ -78,3 +78,8 @@ GREEN: #5AA93E*/
 		padding: 3em 0 0 0;
 		margin: 5% 0 0 0;
 	}
+
+	.logo {
+		max-height: 60px; 
+		margin-top: 0px;
+	}
