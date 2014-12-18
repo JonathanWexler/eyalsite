@@ -1,22 +1,24 @@
+@import url('http://fonts.googleapis.com/css?family=Signika');
 /*
 	Minimaxing by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+	*/
 
-/*********************************************************************************/
-/* Global                                                                        */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Global                                                                        */
+	/*********************************************************************************/
 
-/* Basic */
+	/* Basic */
+
 
 	body {
 		font-size: 13.5pt;
-		font-family: helvetica;
+		font-family: Kavoon;
 		background-color: #e3e9dc;
-		font-family: 'Ubuntu Condensed', sans-serif;
+		font-family: Signika;
 		color: #878e83;
-		letter-spacing: -1px;
+		letter-spacing: 0px;
 	}
 
 	h1,h2,h3,h4 {
@@ -86,52 +88,52 @@
 		margin-bottom: 0 !important;
 	}
 
-/* Reusable */
+	/* Reusable */
 
 	article.blog-post {
 		position: relative;
 	}
 
-		article.blog-post .comments {
-			position: absolute;
-			top: 0;
-			right: 0;
-			height: 32px;
-			line-height: 24px;
-			padding-left: 40px;
-			background: url('images/icon-bubble.png') no-repeat;
-		}
+	article.blog-post .comments {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 32px;
+		line-height: 24px;
+		padding-left: 40px;
+		background: url('images/icon-bubble.png') no-repeat;
+	}
 
 	ul.small-image-list {
 	}
 
-		ul.small-image-list li {
-			overflow: hidden;
-			margin-bottom: 1.5em;
-		}
+	ul.small-image-list li {
+		overflow: hidden;
+		margin-bottom: 1.5em;
+	}
 
 	ul.big-image-list {
 	}
 
-		ul.big-image-list li {
-			overflow: hidden;
-			margin-bottom: 2em;
-		}
+	ul.big-image-list li {
+		overflow: hidden;
+		margin-bottom: 2em;
+	}
 
 	ul.link-list {
 	}
 
-		ul.link-list li {
-			border-top: solid 1px #ced0b7;
-			padding: 0.75em 0 0 0;
-			margin: 0.75em 0 0 0;
-		}
-		
-		ul.link-list li:first-child {
-			padding-top: 0;
-			margin-top: 0;
-			border-top: 0;
-		}
+	ul.link-list li {
+		border-top: solid 1px #ced0b7;
+		padding: 0.75em 0 0 0;
+		margin: 0.75em 0 0 0;
+	}
+
+	ul.link-list li:first-child {
+		padding-top: 0;
+		margin-top: 0;
+		border-top: 0;
+	}
 
 	.button {
 		display: inline-block;
@@ -162,4 +164,14 @@
 		background-image: -o-linear-gradient(top, #1b9fbe, #118eb1);
 		background-image: linear-gradient(top, #1b9fbe, #118eb1);
 		box-shadow: inset 0px 0px 0px 1px #3ecceb;
+	}
+
+
+	/*CUSTOM*/
+
+	.list {
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #878e99;
+		list-style-type: square;
 	}
