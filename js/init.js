@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+$('img').hide().one("load",function(){
+    $(this).fadeIn(500);
+}).each(function(){
+    if(this.complete) $(this).trigger("load");
+});
+
 (function($) {
 
 	skel.init({
